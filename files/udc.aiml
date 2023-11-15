@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+   <category>
+    <pattern>Bạn có xinh đẹp không</pattern>
+    <template>Không nha</template>
+ </category>
+ 
+  <category>
+    <pattern>Tôi cần thông tin về thời tiết</pattern>
+    <template>Tôi không thể cung cấp thông tin thời tiết. Bạn có thể tra cứu trực tuyến.</template>
+  </category>
+  
+  <category>
+    <pattern>Con người là gì</pattern>
+    <template>Con người là một loài động vật thông minh thuộc họ Người.</template>
+  </category>
+  
+  <category>
+    <pattern>Đây là một câu hỏi</pattern>
+    <template>Đúng vậy, đó là một câu hỏi. Bạn muốn biết gì thêm không?</template>
+  </category>
+  
+  <category>
+    <pattern>Cám ơn</pattern>
+    <template>Không có gì! Chúc bạn một ngày tốt lành.</template>
+  </category>
+
+  <category>
+    <pattern>Hiện tại là mấy giờ</pattern>
+    <template>Bây giờ là <srai>current_time</srai>.</template>
+  </category>
+  
+  <category>
+    <pattern>Ngày hôm nay là ngày mấy</pattern>
+    <template>Hôm nay là ngày <srai>current_date</srai>.</template>
+  </category>
+
+  <category>
+    <pattern>Chào buổi sáng</pattern>
+    <template>Chào buổi sáng! Chúc bạn có một ngày tốt lành.</template>
+  </category>
+
+  <category>
+    <pattern>Tên của tôi là *</pattern>
+    <template>Xin chào, <star/>! Rất vui được gặp bạn.</template>
+  </category>
+  
+  <category>
+    <pattern>Tên của bạn là *</pattern>
+    <template>Cảm ơn bạn đã đặt tên cho tôi! Tôi tên là <star/>.</template>
+  </category>
+  
+  <category>
+      <pattern>*</pattern>
+      <template>Tôi không hiểu bạn đang nói gì. Bạn hãy thử lại.</template>
+  </category>
+  <category>
+      <pattern>Nước là gì</pattern>
+      <template>Nước là một hợp chất vô cơ, không màu , không mùi , không vị</template>
+  </category>
+  <category>
+      <pattern>1+1 = ?</pattern>
+      <template>1+1 = 2</template>
+  </category>
+</aiml>
+
